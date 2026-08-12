@@ -25,6 +25,6 @@ Think like: 'If my commit is applied, it will ...' [e.g; add/update file xy, fix
 
 ## Markdown
 
-Code: `code`
+Code: `
 
 Escape character: \
