@@ -15,7 +15,16 @@ A basic workflow for creating a repository and committing:
 
 ---
 
+`git diff`
+`git diff FILENAME`
+
+---
+
 `git add .`
+`git add FILENAME`
+`git add *.FILETYPE`
+
+---
 
 `git commit -m 'MESSAGE'`
 ### Why imperative verb for commit message?
