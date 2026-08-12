@@ -34,6 +34,11 @@ Think like: 'If my commit is applied, it will ...' [e.g; add/update file xy, fix
 
 `git push -u origin main`
 
+---
+
+`git rm FILENAME`
+
+
 ## Markdown
 
 Escape character: \
