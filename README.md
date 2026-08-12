@@ -13,6 +13,8 @@ A basic workflow for creating a repository and committing:
 
 `git branch -M main`
 
+---
+
 `git add .`
 
 `git commit -m 'MESSAGE'`
@@ -25,6 +27,23 @@ Think like: 'If my commit is applied, it will ...' [e.g; add/update file xy, fix
 
 ## Markdown
 
+Escape character: \
+
+Unordered/ordered list:
+
++ a
++ b
++ c
+
+1. First
+2. Second
+
+**bold** 
+*italic*
+
+---
 Code: `
 
-Escape character: \
+```html
+<html>test<html>
+```
