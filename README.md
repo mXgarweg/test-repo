@@ -16,17 +16,21 @@ A basic workflow for creating a repository and committing:
 ---
 
 `git diff`
+
 `git diff FILENAME`
 
 ---
 
 `git add .`
+
 `git add FILENAME`
+
 `git add *.FILETYPE`
 
 ---
 
 `git commit -m 'MESSAGE'`
+
 *Why imperative verb for commit message?*
 Think like: 'If my commit is applied, it will ...' [e.g; add/update file xy, fix line in file xy]
 
@@ -42,26 +46,34 @@ Think like: 'If my commit is applied, it will ...' [e.g; add/update file xy, fix
 ## branches
 
 `git branch` (show branches)
+
 `git branch -v` (show branches with their last commit)
+
 `git branch FEATURE-XY` (create branch for production server, pre-production server, development server, single feature, etc.)
 
 
 ### merging
 
 `git branch`
+
 `git checkout FEATURE-XY` (switch to branch FEATURE-XY)
 
 ***work in branch FEATURE-XY, e.g. create file feature-xy.html***
 
 `git add feature-xy.html`
+
 `git commit -m "add feature-xy.html file"`
+
 (-) git push
+
 (+) git push -u origin FEATURE-XY
 
 `git checkout main`
+
 `git merge FEATURE-XY`
 
 `git status`
+
 `git push`
 
 
